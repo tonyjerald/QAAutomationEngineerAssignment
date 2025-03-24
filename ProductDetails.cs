@@ -9,8 +9,8 @@ namespace QAAutomationEngineerAssignment
 {
     public class ProductDetails
     {
-        public string Name { get; set; }
-        public string Price { get; set; }
-        public IWebElement Link { get; set; }
+        public required string Name { get; set; }
+        public required string Price { get; set; }
+        public required IWebElement Link { get; set; }
     }
 }
